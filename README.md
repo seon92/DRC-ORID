@@ -6,8 +6,9 @@ Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clus
 - python 3.7
 
 
-## Pretrained Models
-Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&confirm=JG-C&id=1YIxJguzgFp0t7iLHw1bKLrv7JQrc4lMG)
+## Pretrained Model and Reference List for Quick Start
+- [pre-trained model](https://drive.google.com/file/d/1GlsU8bS2LeDCuM0aE8A-AeqE6l3UlRfn/view?usp=sharing)
+- [Reference list](https://drive.google.com/file/d/18cAlzj-_Kr8gFIYUzCmrgVXu8yjzLoMf/view?usp=sharing)
 
 
 ## Datasets
