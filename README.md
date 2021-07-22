@@ -31,7 +31,7 @@ Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clus
 3. Get clustering results and train VGG-based network
 ```
     $ python get_clustering_info_setting_A.py
-    $ python train_estimation_kCH_setting_A.py
+    $ python train_kCH_morph_estimation.py
 ```
 4. Select references based on ORID results
 ```
