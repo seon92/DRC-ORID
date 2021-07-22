@@ -14,6 +14,7 @@ Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clus
 ## Datasets
 - [MORPH II](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8) 
 - [Balanced](https://github.com/changsukim-ku/order-learning)
+* For MORPH II experiments, we follow the same fold settings in this OL(https://github.com/changsukim-ku/order-learning/tree/master/index) repo.
 
 
 ## Quick Start: Code Usage Example
