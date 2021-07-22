@@ -57,3 +57,7 @@ Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clus
   year      = {2021}
 }
 ```
+
+## License
+See [MIT License](https://github.com/JunHeum/BMBC/blob/master/LICENSE)
+
