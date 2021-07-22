@@ -1,7 +1,39 @@
 # Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition
-Official Implementation of the ICLR 2021 paper, ["Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition."](https://openreview.net/pdf?id=Yz-XtK5RBxB)
+Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition."](https://openreview.net/pdf?id=Yz-XtK5RBxB)
 
-Codes will be uploaded soon. 
+## Requirements
+- TensorFlow 2.0 or higher 
+- python 3.7
+
+## Pretrained Models
+Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&confirm=JG-C&id=1YIxJguzgFp0t7iLHw1bKLrv7JQrc4lMG)
+
+## Quick Start: Code Usage Example
+1. Modify Config file 
+- Adjust img_folder, train & test list for your purpose. As a default, MORPH setting A is used in the source code. 
+
+2. Clustering ordered data by DRC-ORID
+```
+    $ cd train
+    $ cd morph
+    $ python train_kCH_morph_clustering.py
+```    
+- This will generate the centroids file and checkpoint of feature extractor. 
+
+3. Get clustering results and train VGG-based network
+```
+    $ python get_clustering_info_setting_A.py
+    $ pyton train_estimation_kCH_setting_A.py
+```
+4. Select references based on ORID results
+```
+    $ cd test
+    $ python morph_ref_sel_kCH_by_attr_Setting_A.py
+```
+5. Run test
+```
+    $ python test_morph_kCH_by_attr_setting_A.py
+```
 
 ## Cite
 
