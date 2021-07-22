@@ -5,8 +5,15 @@ Official TensorFlow Implementation of the ICLR 2021 paper, ["Deep Repulsive Clus
 - TensorFlow 2.0 or higher 
 - python 3.7
 
+
 ## Pretrained Models
 Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&confirm=JG-C&id=1YIxJguzgFp0t7iLHw1bKLrv7JQrc4lMG)
+
+
+## Datasets
+- [MORPH II](https://ebill.uncw.edu/C20231_ustores/web/classic/product_detail.jsp?PRODUCTID=8) 
+- [Balanced](https://github.com/changsukim-ku/order-learning)
+
 
 ## Quick Start: Code Usage Example
 1. Modify Config file 
@@ -34,6 +41,7 @@ Download [pre-trained model](https://drive.google.com/u/0/uc?export=download&con
 ```
     $ python test_morph_kCH_by_attr_setting_A.py
 ```
+
 
 ## Cite
 
